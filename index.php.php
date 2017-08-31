@@ -11,7 +11,7 @@ if(isset($_GET["city"]) and !empty($_GET["city"])) {
     $weather_description = "Latitude of " .$_GET["city"]." is ".$weather_array["coord"]["lat"]." and Longitude is ".$weather_array["coord"]["lon"]." Tempature is : ".$weather_array["main"]["temp"]." degree and "." humidity is : ".
 	$weather_array["main"]["humidity"]." Pressure is : ".$weather_array["main"]["pressure"]." Wind speed is :".$weather_array["wind"]["speed"];
 
-
+		//paste your API key in {{API KEY}}
 	}
 }
 
